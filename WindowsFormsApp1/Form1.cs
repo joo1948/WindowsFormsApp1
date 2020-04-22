@@ -16,5 +16,13 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("안녕하세요~",
+                "정재현이 말하길...",
+                MessageBoxButtons.OK,
+                MessageBoxIcon.Error);
+        }
     }
 }
